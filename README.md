@@ -6,6 +6,7 @@ arcgis api for JavaScript（NO.1 Initial map）
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
     <title>Simple Map</title>
+    //Esri本地样式加载
     <link rel="stylesheet" href="http://localhost/arcgis_js_api/library/3.17/3.17/esri/css/esri.css">
     <style>
       html, body, #map {
@@ -14,6 +15,7 @@ arcgis api for JavaScript（NO.1 Initial map）
         padding: 0;
       }
     </style>
+   //初始化所需的API
     <script src="http://localhost/arcgis_js_api/library/3.17/3.17/init.js"></script>
     <script>
         var map;
